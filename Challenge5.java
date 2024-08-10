@@ -7,7 +7,7 @@ public class Challenge5 {
         System.out.println("Welcome to Swapping...");
         System.out.println(" Enter Value Of A: ");
         int a= sc.nextInt();
-        System.out.println("Enter the Value Pf B:");
+        System.out.println("Enter the Value  B:");
         int b= sc.nextInt();
 
         int c=a;  a=b; b=c;
