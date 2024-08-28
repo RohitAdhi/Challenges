@@ -7,10 +7,10 @@ public class Challenge4 {
         System.out.println("Welcome to my Addition Section");
         Scanner sc = new Scanner(System.in);
         System.out.println(" Please Enter Your First Number : ");
-        double num1 = sc.nextDouble();
+        int num1 = sc.nextInt();
         System.out.println(" Please Enter Your Second Number");
-        double num2 = sc.nextDouble();
-        double Addition = num1 + num2;
+        int num2 = sc.nextInt();
+        int Addition = num1 + num2;
         System.out.println("Sum Of Your Number is: " + Addition);
 
     }
